@@ -4,7 +4,7 @@ def primary():
 
   f = open("quotes.txt")
   quotes = f.readlines()
-  f.close() 
+  f.close()
 
   print(quotes)
 
