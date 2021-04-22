@@ -1,5 +1,6 @@
 def primary():
   #print("Keep it logically awesome.")
+  print(quotes[0])
 
   f = open("quotes.txt")
   quotes = f.readlines()
